@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "GameWith Easy Search",
+    "version": "1.0",
+    "description": "Select text on GameWith site and search within the site instantly.",
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "host_permissions": [
+        "https://gamewith.jp/*"
+    ]
+}
